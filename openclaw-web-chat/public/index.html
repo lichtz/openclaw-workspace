@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenClaw Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1>🤖 OpenClaw Chat</h1>
+      <div class="connection-status" id="connectionStatus">
+        <span class="status-dot"></span>
+        <span class="status-text">连接中...</span>
+      </div>
+    </header>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="message bot-message">
+        <div class="message-avatar">🐱</div>
+        <div class="message-content">
+          <div class="message-text">你好！我是OpenClaw AI助手 🐱</div>
+          <div class="message-time">现在</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input 
+        type="text" 
+        id="messageInput" 
+        placeholder="输入消息..."
+        autocomplete="off"
+      >
+      <button id="sendBtn">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

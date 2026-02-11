@@ -1,0 +1,81 @@
+# AI智库 - 炫酷版配置
+blog_title: AI智库
+subtitle: 探索AI的无限可能 | 每天更新AI前沿资讯
+author: ''
+language: zh-CN
+timezone: Asia/Shanghai
+
+# 导航菜单
+menu:
+  首页: /
+  AI资讯: /categories/AI资讯/
+  教程: /categories/教程/
+  学习资料: /categories/学习资料/
+  关于: /about/
+
+# 页脚
+footer:
+  custom: '<div class="footer-neon">AI智库 © 2026 | 每天更新AI内容</div>'
+
+# 主题色 - 赛博朋克渐变
+theme_color:
+  primary: '#8b5cf6'
+  secondary: '#ec4899'
+  text: '#ffffff'
+  link: '#f59e0b'
+  background: '#0f0c29'
+
+# 首页设置
+index:
+  article_list:
+    enable: true
+    sort: date
+    top_img: false
+  slogan:
+    enable: true
+    text: '探索AI的无限可能'
+    style: 'typesit'
+  article_list_style: 'card'
+
+# 文章页设置
+article:
+  preview:
+    enable: true
+    font_size: 16px
+  toc:
+    enable: true
+    heading: h2,h3
+  copy_btn: true
+  highlight:
+    theme: 'atom-one-dark'
+
+# 代码高亮
+highlight:
+  theme: 'atom-one-dark'
+
+# 侧边栏
+sidebar:
+  position: ['left', 'right']
+  width: 260
+
+# 动画效果
+animation:
+  enable: true
+  post_card: true
+  page: true
+  typeit: true
+
+# 自定义 CSS 和 JS
+custom_css:
+  - css/cool.css
+custom_js:
+  - js/particles.min.js
+  - js/cool-effects.js
+  - js/fireworks.js
+
+# 字数统计
+word_count: true
+
+# 阅读时间
+reading_time:
+  enable: true

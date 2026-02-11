@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "skills": {
+    "vercel": {
+      "version": "1.0.1",
+      "installedAt": 1770219971724
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1770220125071
+    },
+    "playwright-cli": {
+      "version": "1.0.1",
+      "installedAt": 1770220257335
+    },
+    "test-master": {
+      "version": "0.1.0",
+      "installedAt": 1770220326790
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1770220328918
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1770220330833
+    },
+    "healthcheck": {
+      "version": "1.0.2",
+      "installedAt": 1770220332753
+    },
+    "coding-agent": {
+      "version": "1.0.1",
+      "installedAt": 1770220334608
+    },
+    "blogwatcher": {
+      "version": "1.0.0",
+      "installedAt": 1770220336427
+    },
+    "discord": {
+      "version": "1.0.1",
+      "installedAt": 1770220338207
+    },
+    "slack": {
+      "version": "1.0.0",
+      "installedAt": 1770220340167
+    },
+    "apple-notes": {
+      "version": "1.0.0",
+      "installedAt": 1770220341929
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1770220343790
+    },
+    "ui-audit": {
+      "version": "1.0.1",
+      "installedAt": 1770220954677
+    },
+    "web-design-guidelines": {
+      "version": "1.0.0",
+      "installedAt": 1770220956841
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1770289162607
+    },
+    "amap": {
+      "version": "1.0.0",
+      "installedAt": 1770704091860
+    }
+  }
+}

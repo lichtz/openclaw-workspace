@@ -1,0 +1,71 @@
+# AI智库 - 赛博艺术版配置
+blog_title: AI智库
+subtitle: 探索AI的无限可能 | 每天更新AI前沿资讯
+author: ''
+language: zh-CN
+timezone: Asia/Shanghai
+
+# 导航菜单 - 简约设计
+menu:
+  首页: /
+  资讯: /categories/AI资讯/
+  教程: /categories/教程/
+
+# 页脚 - 简洁
+footer:
+  custom: '© 2026 AI智库 | Made with 💜'
+
+# 主题色 - 深色赛博朋克
+theme_color:
+  primary: '#8b5cf6'
+  secondary: '#ec4899'
+  text: '#ffffff'
+  link: '#f59e0b'
+  background: '#0a0a0a'
+
+# 首页
+index:
+  article_list:
+    enable: true
+    sort: date
+  slogan:
+    enable: true
+    text: '探索AI无限可能'
+    style: 'float'
+
+# 文章页
+article:
+  preview:
+    enable: true
+    font_size: 16px
+  toc:
+    enable: true
+  copy_btn: true
+
+# 代码高亮
+highlight:
+  theme: 'atom-one-dark'
+
+# 侧边栏
+sidebar:
+  position: ['right']
+  width: 240
+
+# 动画
+animation:
+  enable: true
+  post_card: true
+  page: true
+
+# 自定义 - 赛博艺术
+custom_css:
+  - css/artsy.css
+custom_js:
+  - js/particles.min.js
+  - js/artsy.js
+  - js/fireworks.js
+
+# 字数统计
+word_count: true
+reading_time:
+  enable: true
